@@ -67,7 +67,6 @@ export default {
           </td>
           <td>
             <button
-              :id="drawerProduct.id"
               @click="productsInDrawer.delete(drawerProduct)"
             >
               Удалить
