@@ -1,0 +1,9 @@
+Получить список платежей	[GET]	http://servername/rest/payment
+Получить информацию по конкретному платежу	[GET]	http://servername/rest/payment/{payment_id}/
+Создать платеж	[POST]	http://servername/rest/payment/create/
+Удалить платеж	[DELETE]	http://servername/rest/payment/delete/{payment_id}/
+Отредактировать информацию по платежу	[PATCH]	http://servername/rest/payment/edit/
+Получить список платежных систем для платежа	[GET]	http://servername/rest/payment/{payment_id}/systems
+Получить список типов платежей	[GET]	http://servername/rest/payment_types/
+Выполнить операцию "Возврат" над платежом	[PUT]	http://servername/rest/payment/return/
+Выполнить операцию "Аннулирование" над платежом	[POST]	http://servername/rest/payment/cancel/
