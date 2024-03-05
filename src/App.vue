@@ -19,11 +19,7 @@ export default {
         product: this.products[0],
         quantity: 1,
       });
-    },
-    // deleteProduct(e){
-    //   this.productsInDrawer.delete(e.target.id)
-    //   console.log(e.target.id)
-    // }
+    }
   },
   computed: {
     totalPrice() {
